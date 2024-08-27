@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -84,11 +88,33 @@
       <div class="container">
         <div class="wrap2">
           <h3>Testimonials</h3>
-          <h4>"Calm, Serene, Retro – What a way to relax and enjoy"</h4>
-          <p>Mr. and Mrs. Baxter, UK</p>
+
+          <div class="swiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <h4>"Calm, Serene, Retro – What a way to relax and enjoy"</h4>
+                <p>Mr. and Mrs. Baxter, UK</p>
+              </div>
+
+              <div class="swiper-slide">
+                <h4>"Calm, Serene, Retro – What a way to relax and enjoy"</h4>
+                <p>Mr. and Mrs. Baxter, UK</p>
+              </div>
+
+              <div class="swiper-slide">
+                <h4>"Calm, Serene, Retro – What a way to relax and enjoy"</h4>
+                <p>Mr. and Mrs. Baxter, UK</p>
+              </div>
+
+            </div>
+
+
+          </div>
+
           <div class="btn2">
-            <img src="./img/aru-left.svg" alt="" />
-            <img src="./img/aru-right.svg" alt="" />
+            <img class="swiper-button-prev" src="./img/aru-left.svg" alt="" />
+            <img class="swiper-button-next" src="./img/aru-right.svg" alt="" />
           </div>
         </div>
       </div>
@@ -96,49 +122,51 @@
 
     <div class="icon"></div>
     <footer class="footer">
-<div class="container">
-  <div class="footer-wrap">
-    <div>
-      <img class="footer-logo" src="./img/footer-logo.svg" alt="" />
-      <p>497 Evergreen Rd. Roseville, CA 95673 <br>
-        +44 345 678 903 <br>
-        luxury_hotels@gmail.com</p>
-    </div>
+      <div class="container">
+        <div class="footer-wrap">
+          <div>
+            <img class="footer-logo" src="./img/footer-logo.svg" alt="" />
+            <p>
+              497 Evergreen Rd. Roseville, CA 95673 <br />
+              +44 345 678 903 <br />
+              luxury_hotels@gmail.com
+            </p>
+          </div>
 
-    <div>
-      <a href="">About Us</a>
-      <a href="">Contact</a>
-      <a href="">Terms & Conditions</a>
-    </div>
+          <div>
+            <a href="">About Us</a>
+            <a href="">Contact</a>
+            <a href="">Terms & Conditions</a>
+          </div>
 
-    <div>
-      <a href="">
-        <img src="./img/fb.svg" alt="">
-        Facebook
-      </a>
-      <a href="">
-        <img src="./img/x.svg" alt="">
-        Twitter
-      </a>
-      <a href="">
-        <img src="./img/in.svg" alt="">
-        Instagram
-      </a>
-    </div>
+          <div>
+            <a href="">
+              <img src="./img/fb.svg" alt="" />
+              Facebook
+            </a>
+            <a href="">
+              <img src="./img/x.svg" alt="" />
+              Twitter
+            </a>
+            <a href="">
+              <img src="./img/in.svg" alt="" />
+              Instagram
+            </a>
+          </div>
 
-    <div>
-      <b>Subscribe to our newsletter</b>
+          <div>
+            <b>Subscribe to our newsletter</b>
 
-      <form action="">
-        <input placeholder="Email Address" type="text" />
-        <button class="btn">OK</button>
-      </form>
-
-    </div>
-  </div>
-</div>
-      
-     
+            <form action="">
+              <input placeholder="Email Address" type="text" />
+              <button class="btn">OK</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./sctipt.js"></script>
   </body>
 </html>
